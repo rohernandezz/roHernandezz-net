@@ -1,0 +1,16 @@
+{{/*  CONFIGURACIÓN DE SCSS (SASS)
+       *************
+       (Cosas de Hugo)
+*/}}
+
+{{ $opts := dict
+  "transpiler" "dartsass"
+  "targetPath" "css/siteStyles.css"
+  "vars" site.Params.styles
+  "enableSourceMap" (not hugo.IsProduction)
+  "includePaths" (slice "node_modules/bootstrap/scss")
+}}
+
+{{ with resources.Get "scss/main.scss" | toCSS $opts | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{ end }}
