@@ -9,3 +9,8 @@ command = './build.sh'
 [assets]
 directory = './public'
 not_found_handling = '404-page'
+
+
+[[routes]]
+pattern = "hernandezz.net"
+custom_domain = true
