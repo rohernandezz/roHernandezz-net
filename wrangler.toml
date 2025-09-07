@@ -1,6 +1,6 @@
 # Configure Cloudflare Worker
 
-name = 'hosting-cloudflare-worker'
+name = 'sitio-hernandezz-net'
 compatibility_date = '2025-09-07'
 
 [build]
@@ -9,7 +9,6 @@ command = './build.sh'
 [assets]
 directory = './public'
 not_found_handling = '404-page'
-
 
 [[routes]]
 pattern = "hernandezz.net"
