@@ -230,16 +230,14 @@ input, textarea, button, select {
 
 @font-face {
 	font-family: 'Antonio';
-	font-weight: 400;
-	src: url('Antonio-Regular.woff2') format('woff2'),
-			 url('Antonio-Regular.woff') format('woff');
+	/* font-weight: 400; */
+	src: url('/fonts/Outpact-VF_beta4.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Antonio';
-	font-weight: 700;
-	src: url('Antonio-Bold.woff2') format('woff2'),
-			 url('Antonio-Bold.woff') format('woff')
+	/* font-weight: 700; */
+	src: url('/fonts/Outpact-VF_beta4.woff2') format('woff2');
 }
 
 html {
@@ -314,7 +312,7 @@ button:active {
 	width: var(--lfw);
 	background-color: var(--section-2-color);
 	text-align: right;
-	font-weight: bold;
+	/* font-weight: bold; */
 	line-height: 1.2;
 	color: black;
 	transition: 800ms;
@@ -689,7 +687,7 @@ button:active {
 	align-items: flex-end;
 	text-decoration: none;  
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
   padding-right: .75rem;
   padding-bottom: .35rem;
 }
@@ -702,7 +700,7 @@ button:active {
 	align-items: flex-end;
 	text-decoration: none;  
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
   padding-right: .75rem;
   padding-bottom: .35rem;
 }
@@ -715,7 +713,7 @@ button:active {
 	align-items: flex-end;
 	text-decoration: none;  
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
   padding-right: .75rem;
   padding-bottom: .35rem;
 }
@@ -919,7 +917,7 @@ button:active {
 	text-align: right;
 	font-size: clamp(.875rem, 2vw, 1rem);
 	line-height: 1.2;
-	font-weight: bold;
+	/* font-weight: bold; */
 	color: black;
 	transition: width 1s;
 }
@@ -1331,7 +1329,7 @@ button:active {
 	text-align: right;
 	line-height: 1.175;
 	text-decoration: none;
-	font-weight: bold;
+	/* font-weight: bold; */
 	text-transform: uppercase;
 	color: black;
 	-webkit-touch-callout: none; 
@@ -1422,7 +1420,7 @@ nav button,
 	line-height: 1.175;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: bold;
+	/* font-weight: bold; */
 	color: black;
 	-webkit-touch-callout: none; 
   -webkit-user-select: none; 
@@ -1522,7 +1520,7 @@ nav button:nth-child(4) {
 	text-align: right;
 	line-height: 1.175;
 	text-decoration: none;
-	font-weight: bold;
+	/* font-weight: bold; */
 	text-transform: uppercase;
 	color: black;
 	-webkit-touch-callout: none; 
@@ -1629,7 +1627,7 @@ nav button:nth-child(4) {
   background-color: var(--panel-top-button-color);
   text-align: right;
   line-height: 1;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-transform: uppercase;
   color: black;
   cursor: pointer;
@@ -2055,7 +2053,7 @@ iframe {
 }
 
 strong {
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 
 code {
@@ -2172,7 +2170,7 @@ code {
   top: 21%;
 	transform: rotate(90deg);
 	transition: 0.4s;
-  font-weight: bold;
+  /* font-weight: bold; */
 	color: black;    
 }
 
@@ -2915,7 +2913,7 @@ footer:has(.footer-frame) {
 	border-block: var(--bar-border);
 	padding: var(--left-frame-padding);
 	font-size: clamp(.875rem, 2vw, 1rem);
-	font-weight: bold;
+	/* font-weight: bold; */
 	color: black;
 }
 

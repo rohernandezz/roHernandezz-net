@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<title>Classic Starndard</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="format-detection" content="date=no">
-	{{/*  <link rel="stylesheet" type="text/css" href="assets/classic.css">  */}}
-	{{ partial "siteStyles.html" . }}
-	{{ block "head" . }}
-	{{ end }}
+	
+	
+
+
+
+
+  <link rel="stylesheet" href="/css/siteStyles.2d61465fe7e99f95ec15055e554f3d448b2fd269f9a22315dbf01f02b0295d02.css" integrity="sha256-LWFGX&#43;fpn5XsFQVeVU89RIsv0mn5oiMV2/AfArApXQI=" crossorigin="anonymous">
+
+	
+	
 </head>
 
 <body>
@@ -19,14 +25,7 @@
 	<section class="wrap-standard" id="column-3">
 		<div class="wrap">
 			<div class="left-frame-top">
-				<!--
-				*** LCARS PANEL BUTTON ***
-				Replace the hashtag '#' with a real URL (or not) in the following <button> tag. If you do not want a sound effect for this link, replace the <button> element with the following <div> + <a> elements:
-					
-				<div class="panel-1">
-					<a href="#">LCARS</a>
-				</div>
-				-->
+				
 				<button onclick="playSoundAndRedirect('audio2', '#')" class="panel-1-button">LCARS</button>
 				<div class="panel-2">02<span class="hop">-262000</span></div>
 			</div>
@@ -299,17 +298,9 @@
 							<div class="dc-row-6">7274</div>
 							<div class="dc-row-7">2103</div>
 						</div>
-					</div>	<!-- /data-cascade-wrapper -->				
+					</div>					
 					<nav> 
-						<!--
-						*** MAIN NAVIGATION BUTTONS ***
-						Replace the hashtag '#' with a real URL (or not).
-						If you don't want sound effects, replace the <button> element with a basic <a> tag shown here in this comment: 
-						<a href="#">01</a>
-						<a href="#">02</a>
-						<a href="#">03</a>
-						<a href="#">04</a>
-						-->
+						
 						<button onclick="playSoundAndRedirect('audio2', '#')">01</button>
 						<button onclick="playSoundAndRedirect('audio2', '#')">02</button>
 						<button onclick="playSoundAndRedirect('audio2', '#')">03</button>
@@ -327,11 +318,7 @@
 		</div>
 		<div class="wrap" id="gap">
 			<div class="left-frame">
-				<!--
-				** SCROLL TO TOP OF PAGE BUTTON **
-				This button is initially hidden, and is styled like a panel in the sidebar. It appears at the bottom of the page after vertical scrolling. If you don't want the sound effect, replace with this:
-				<button onclick="topFunction()" id="topBtn"><span class="hop">screen</span> top</button>
-				-->
+				
 				<button onclick="topFunction(); playSoundAndRedirect('audio4', '#')" id="topBtn"><span class="hop">screen</span> top</button>
 				<div>
 					<div class="panel-3">03<span class="hop">-111968</span></div>
@@ -356,27 +343,44 @@
 				</div>
 				<main>
 
-					<!-- Start your content here. -->
+					
 
-					{{ block "main" . }}
-					{{ end }}
+					
+<div class="mainContentFrame">
+  <div class="single-Title"></div>
+  <a href="http://localhost:1313/tags/"><h1>Tags</h1></a>
 
-					<!-- End content area. -->					
+  <h2>Welcome to LCARS &#149; Classic Theme &#149; Standard Layout</h2>
+  <h3 class="font-gold">Version 24.2</h3>		
+  <hr>
+
+  <h4>Content:</h4>
+  <p></p>
+  <p class="go-big">Live long and prosper.</p>
+  
+</div>
+
+
+    
+
+
+
+										
 
 				</main>
 				<footer>
-					<!-- Your copyright information is only a suggestion and you can choose to delete it. -->
+					
 			 		Content &copy; 2025 *replace this text with your website's name or URL.* <br>
 
-					<!-- The following attribution must not be removed: -->
+					
 					LCARS Inspired Website Template by <a href="https://www.thelcars.com">www.TheLCARS.com </a> , with modifications.				 		 
 				</footer> 
 			</div>
 		</div>
 	</section>	
 	<script type="text/javascript" src="assets/lcars.js"></script>
-	{{ block "scripts" . }}
-	{{ end }}
+	
+	
 	<div class="headtrim"> </div>
 	<div class="baseboard"> </div>
 </body>

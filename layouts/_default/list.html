@@ -1,0 +1,26 @@
+{{ define "head" }}
+{{ end }}
+
+{{ define "main" }}
+<div class="mainContentFrame">
+  <div class="single-Title"></div>
+  <a href="{{ .Permalink }}"><h1>{{ .Name }}</h1></a>
+
+  <h2>Welcome to LCARS &#149; Classic Theme &#149; Standard Layout</h2>
+  <h3 class="font-gold">Version 24.2</h3>		
+  <hr>
+
+  <h4>Content:</h4>
+  <p>{{ .Content }}</p>
+  <p class="go-big">Live long and prosper.</p>
+  
+</div>
+
+
+    {{ range .Pages }}
+    {{ end }}
+
+{{ end }} 
+
+{{ define "scripts" }}
+{{ end }}
