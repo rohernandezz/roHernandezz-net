@@ -1,7 +1,7 @@
 +++
 date = '2025-09-07T18:56:34-06:00'
 draft = false
-title = 'Markdown Test:'
+title = 'Markdown Test'
 +++
 
 # Heading Level 1

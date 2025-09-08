@@ -7,26 +7,26 @@
   <h5 class="font-lima-bean">(is-LIST-page!!!!!!)</h5>
 
   <a class="mainTitle" href="{{ .Permalink }}"></a>
-  {{ partial "section-if.html" . }}
+  {{/*  {{ partial "section-if.html" . }}  */}}
   
-  <h2 class="font-gold">{{ .Title }}</h2>
+  <h1 class="font-gold">{{ .Title }}</h1>
 
   <p>{{ .Content }}</p>
   {{/*  <p class="go-big font-gold">Destacado go-big y font-gold.</p>  */}}
   
-  <hr>
+  <hr class="lcars-bar">
 </div>
 
-<h2 class="font-ice">Site Index:</h2>
+<h2 class="font-ice">Section Index:</h2>
     {{ range .Pages }}
     <ul>
       <li>
               <a href="{{ .Permalink }}">
-                <h3 class="font-gold">{{ .Title }}</h3>
+                <h4 class="font-gold">{{ .Title }}</h4>
               </a>
-              <ul>
+              <ul class="lcars-list">
                 {{ range .Pages }}
-                  <li><a href="{{ .Permalink }}">> {{ .Title }}</a></li>
+                  <li><a href="{{ .Permalink }}"> {{ .Title }}</a></li>
                 {{ end }}
               </ul>
       </li>
