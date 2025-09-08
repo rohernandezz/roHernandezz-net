@@ -1,3 +1,11 @@
 baseURL = 'https://ro.hernandezz.net'
 languageCode = 'en-us'
 title = 'Olakease, está en mi sitio o kease'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+        wrapStandAloneImageWithinParagraph = false

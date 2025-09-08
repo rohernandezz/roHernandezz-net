@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stuffs on Olakease, está en mi sitio o kease</title>
+    <link>http://localhost:1313/stuff/</link>
+    <description>Recent content in Stuffs on Olakease, está en mi sitio o kease</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Sep 2025 21:51:32 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/stuff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/stuff/firstpost/</link>
+      <pubDate>Sun, 07 Sep 2025 21:51:32 -0600</pubDate>
+      <guid>http://localhost:1313/stuff/firstpost/</guid>
+      <description>&lt;p&gt;So every blog thingie needs a first post.&lt;/p&gt;&#xA;&lt;p&gt;This is mine.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;ll be short because it is late and also I&amp;rsquo;m running out of battery in this laptop.&lt;/p&gt;&#xA;&lt;p&gt;But I didn&amp;rsquo;t want to succumb to my adhd for a change, and I want this new website to have at least a tiny bit of content.&lt;/p&gt;&#xA;&lt;p&gt;So: I&amp;rsquo;ll drop some screenshots of &lt;a href=&#34;https://tortilla.studio/fonts/outpact&#34;&gt;Outpact&lt;/a&gt;, the font I&amp;rsquo;ve been working on for most of this year, and I&amp;rsquo;m really proud. It&amp;rsquo;s my first nice big widely useful font under my own name and I&amp;rsquo;ll be giving it away for free.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

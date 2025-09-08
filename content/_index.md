@@ -12,12 +12,15 @@ I'm Ro Hernández, a type designer, engineer, developer, letterer, and ocassiona
 {{< random-pick "hacker" "sign painter" "woodworker" "bike mechanic">}}.
 
 
-### Here, you'll find:
+### >> In this website, you will find:
 
-- I'm a nerd.
+- I am a nerd.
 
 - This website is under construction.
 
-- I make fonts here, at (Tortilla.studio.)[https://tortilla.studio]
+- I make fonts, at my foundry: [tortilla.studio](https://ro.tortilla.studio) go buy them. They're nice. [Some]([tortilla.](https://ro.tortilla.studio/fonts/Outpact)) are even free!
 
-- But you can still feel the care in every shape.
+- My internal markdown test [tools](/tools), 'cause I haven't bothered to hide them yet.
+
+- …and some [stuff](/stuff) I've written and drawn and programmed.
+
