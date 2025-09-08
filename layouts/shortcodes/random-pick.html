@@ -1,0 +1,7 @@
+{{/* 
+  Usage: 
+  {{< randompick "apple" "banana" "cherry" >}} 
+*/}}
+
+{{ $list := .Params }}
+{{ index (shuffle $list) 0 }}
