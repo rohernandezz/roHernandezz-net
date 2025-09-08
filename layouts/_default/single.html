@@ -9,11 +9,7 @@
 
   <a class="mainTitle" href="{{ .Permalink }}">
 
-    {{ if .Params.section }}
-      <h1>Section: {{ .Params.section }}</h1>
-    {{ else }}
-      {{/*  <h1>No Section</h1>  */}}
-    {{ end }}
+  {{ partial "section-if.html" . }}
     
   </a>
   <h2 class="font-gold">{{ .Title }}</h2>

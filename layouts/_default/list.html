@@ -6,9 +6,8 @@
   {{/*  DEBUG template selection:  */}}
   <h5 class="font-lima-bean">(is-LIST-page!!!!!!)</h5>
 
-  <a class="mainTitle" href="{{ .Permalink }}">
-    <h1>Section: {{ .Params.section }}</h1>
-  </a>
+  <a class="mainTitle" href="{{ .Permalink }}"></a>
+  {{ partial "section-if.html" . }}
   
   <h2 class="font-gold">{{ .Title }}</h2>
 
