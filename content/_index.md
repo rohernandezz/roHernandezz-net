@@ -8,15 +8,16 @@ fontPath = "/fontFiles/Outpact-VF_beta4.woff2"
 section = "Homepage"
 +++
 
-I'm Ro Hernández, a type designer, engineer, developer, letterer, and ocassionally bike mechanic.
+I'm Ro Hernández, a type designer, engineer, developer, letterer, and ocassional 
+{{< random-pick "hacker" "sign painter" "woodworker" "bike mechanic">}}.
 
 
 ### Here, you'll find:
 
-- Caps are nice and tight.
+- I'm a nerd.
 
-- General proportions are condensed and economical.
+- This website is under construction.
 
-- It does what it’s supposed to do. Reliably. Quietly.
+- I make fonts here, at (Tortilla.studio.)[https://tortilla.studio]
 
 - But you can still feel the care in every shape.
